@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Calibri, "Segoe UI", Candara, Arial, sans-serif;
+}
+
