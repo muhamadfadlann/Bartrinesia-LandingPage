@@ -1,0 +1,25 @@
+.service {
+  padding: 100px 8%;
+  background: #f4f6f9;
+  font-family: "Inter", sans-serif;
+}
+
+.service-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-wrapper h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 60px;
+  color: #1f3a56;
+  position: relative;
+}
+
+.line {
+  width: 120px;
+  height: 3px;
+  background-color: #4ea8de;
+  margin: -40px auto 0 auto; 
+}
