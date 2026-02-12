@@ -1,7 +1,7 @@
 import "./Hero.css";
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="about">
       <div className="hero-left">
         <div className="content">
           <h1>About Us</h1>

@@ -46,7 +46,7 @@ export default function About() {
   };
 
   return (
-    <section className="about" id="about">
+    <section className="about" id="choose">
       <div className="about-container">
         <h2>Why Choose Us</h2>
 
