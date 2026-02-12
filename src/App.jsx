@@ -1,6 +1,7 @@
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Service from "./components/Service";
+import Hero from "./pages/Hero";
+import About from "./pages/About";
+import Service from "./pages/Service";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Hero />
       <About />
       <Service />
+      <Footer />
     </>
   );
 }
