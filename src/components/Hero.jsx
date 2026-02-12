@@ -5,7 +5,7 @@ export default function Hero() {
       <div className="hero-left">
         <div className="content">
           <h1>About Us</h1>
-          <div className="line"></div>
+          <div className="line-1"></div>
           <p>
             Bartrinesia hadir bertujuan meningkatkan pemanfaatan teknologi untuk
             indonesia yang lebih maju. Fokus kami pada Inisiatif TI, Inovasi,
