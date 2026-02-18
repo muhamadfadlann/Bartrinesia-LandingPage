@@ -51,12 +51,10 @@ export default function About() {
         <h2>Why Choose Us</h2>
 
         <div className="about-wrapper">
-          {/* IMAGE */}
           <div className="about-image">
             <img src="img/company (2).jpg" alt="About Us" />
           </div>
 
-          {/* SLIDER CARD */}
           <div className="about-slider">
             <div className="about-card">
               <h3>{slides[current].title}</h3>

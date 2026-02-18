@@ -12,12 +12,12 @@ export default function Footer() {
 
                 <div className="footer-right">
                     <h3>Contact Us</h3>
-                    <p>GKM Green Tower, Level 20</p>
-                    <p>Jl. TB Simatupang. Kav. 89G</p>
-                    <p>Kebagusan, Jakarta Selatan</p>
-                    <p>Daerah Khusus Jakarta 12520</p>
-                    <p><strong>Phone:</strong> +6221-21277626</p>
-                    <p><strong>Email:</strong> sapa[at]rekonesia.co.id</p>
+                    <p>GKM Green Tower, Lantai 20</p>
+                    <p>Jl. TB Simatupang. Kav. 89G</p>  
+                    <p>Kebagusan, Paser Minggu</p>
+                    <p>Jakarta Selatan, DKI Jakarta</p>
+                    <p><strong>Phone:</strong> 0813-9836-0083</p>
+                    <p><strong>Email:</strong> barutransformasiindonesia@gmail.com</p>
                 </div>
             </div>
 

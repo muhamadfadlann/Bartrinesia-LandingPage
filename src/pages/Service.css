@@ -79,7 +79,7 @@
       rgba(15, 45, 85, 0.85),
       rgba(15, 45, 85, 0.85)
     ),
-    url("/public/img/service.jpg");
+    url("/img/service.jpg");
 
   background-size: cover;
   background-position: center;
