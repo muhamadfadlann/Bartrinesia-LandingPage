@@ -66,9 +66,11 @@
 
 .logo-area {
   display: flex;
+  justify-content: flex-start; /* default desktop kiri */
   align-items: center;
-  gap: 12px;
-  margin-bottom: 32px;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .logo-img {
@@ -210,6 +212,14 @@
 
   .clip-edge {
     display: none;
+  }
+
+  .logo-area {
+    justify-content: center; /* mobile jadi tengah */
+  }
+
+  .hero-left {
+    text-align: center; /* supaya text ikut center */
   }
 
   .content h1,
