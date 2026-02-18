@@ -32,7 +32,7 @@ function Navbar() {
 
                 <ul className={`navbar-menu ${isOpen ? "open" : ""}`}>
                     <li className="active" onClick={() => scrollToSction("home")}>Home</li>
-                    <li className="active" onClick={() => scrollToSction("choose")}>About</li>
+                    <li className="active" onClick={() => scrollToSction("about")}>About</li>
                     <li className="active" onClick={() => scrollToSction("services")}>Service</li>
                 </ul>
 
