@@ -14,7 +14,7 @@ export default function Footer() {
                     <h3>Contact Us</h3>
                     <p>GKM Green Tower, Lantai 20</p>
                     <p>Jl. TB Simatupang. Kav. 89G</p>  
-                    <p>Kebagusan, Paser Minggu</p>
+                    <p>Kebagusan, Pasar Minggu</p>
                     <p>Jakarta Selatan, DKI Jakarta</p>
                     <p><strong>Phone:</strong> 0813-9836-0083</p>
                     <p><strong>Email:</strong> barutransformasiindonesia@gmail.com</p>

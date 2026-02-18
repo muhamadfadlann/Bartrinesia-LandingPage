@@ -42,22 +42,23 @@ const whyItems = [
   {
     icon: Medal,
     color: "orange",
-    title: "Berpengalaman & Profesional",
-    desc: "Tim kami terdiri dari para ahli bersertifikat dengan rekam jejak yang telah teruji di berbagai industri.",
+    title: "Experienced & Professional",
+    desc: "Our team consists of certified experts with a proven track record across various industries.",
   },
   {
     icon: Sliders,
     color: "blue",
-    title: "Solusi yang Terpersonalisasi",
-    desc: "Setiap solusi kami rancang khusus sesuai kebutuhan dan karakteristik unik bisnis Anda.",
+    title: "Tailored Solutions",
+    desc: "Every solution we deliver is carefully designed to meet the unique needs and characteristics of your business.",
   },
   {
     icon: Timer,
     color: "orange",
-    title: "Fokus Kualitas & Ketepatan Waktu",
-    desc: "Kami berkomitmen menghadirkan hasil berkualitas tinggi dengan tenggat waktu yang selalu terpenuhi.",
+    title: "Quality & Timely Delivery",
+    desc: "We are committed to delivering high-quality results while consistently meeting agreed deadlines.",
   },
 ];
+
 
 export default function Service() {
   return (
@@ -96,8 +97,8 @@ export default function Service() {
 
       <section className="why">
         <div className="why-wrapper">
-          <div className="section-label">Keunggulan Kami</div>
-          <h2>Kenapa Memilih Kami?</h2>
+          <div className="section-label">Our advantages</div>
+          <h2>Why Choose Us?</h2>
           <div className="line"></div>
 
           <div className="why-grid">

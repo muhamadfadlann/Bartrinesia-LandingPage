@@ -154,6 +154,19 @@
   gap: 40px;
 }
 
+.vm-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.vm-icon {
+  color: var(--primary); /* sesuaikan dengan primary color kamu */
+}
+
+
 /* ===== VISION ===== */
 .vision,
 .mission {
