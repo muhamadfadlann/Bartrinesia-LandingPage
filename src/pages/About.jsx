@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-container">
         {/* ================= TENTANG KAMI ================= */}
         <div className="about-detail">
-          <h2>TENTANG KAMI</h2>
+          <h2>ABOUT US</h2>
           <p>
             PT Baru Transformasi Indonesia (Bartrinesia) is a company engaged in
             IT Solutions, with main services in application development,
