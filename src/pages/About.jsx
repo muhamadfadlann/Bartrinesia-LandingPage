@@ -1,80 +1,74 @@
-import { useState } from "react";
 import "./About.css";
 
 export default function About() {
-  const slides = [
-    {
-      title: "Let's grow your business together",
-      subtitle: "Keahlian dan Pengalaman",
-      description:
-        "Tim kami terdiri dari profesional berpengalaman di berbagai bidang teknologi yang siap membantu Anda mencapai tujuan bisnis Anda.",
-    },
-    {
-      title: "Your IT solution partner",
-      subtitle: "Fokus pada Restorasi Teknologi dan Inovasi",
-      description:
-        "Rekonesia mendorong inovasi di dalam industri IT dan menciptakan solusi teknologi inovatif.",
-    },
-    {
-      title: "Best Digital Transformation Company",
-      subtitle: "Menjaga Keamanan dan Privasi",
-      description:
-        "Kami mengimplementasikan teknologi canggih untuk melindungi data pelanggan dari ancaman keamanan.",
-    },
-    {
-      title: "Komitmen terhadap Pelanggan",
-      subtitle: "Service Excellence",
-      description:
-        "Kami mengutamakan kepuasan pelanggan dengan layanan yang responsif dan profesional.",
-    },
-    {
-      title: "Kontribusi pada Kemajuan Bangsa",
-      subtitle: "Komitmen untuk Indonesia",
-      description:
-        "Kami berkontribusi melalui inovasi teknologi dan program sosial yang berkelanjutan.",
-    },
-  ];
-
-  const [current, setCurrent] = useState(0);
-
-  const nextSlide = () => {
-    setCurrent((prev) => (prev + 1) % slides.length);
-  };
-
-  const prevSlide = () => {
-    setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
-  };
-
   return (
-    <section className="about" id="choose">
+    <section className="about" id="about">
       <div className="about-container">
-        <h2>Why Choose Us</h2>
+        {/* ================= TENTANG KAMI ================= */}
+        <div className="about-detail">
+          <h2>TENTANG KAMI</h2>
+          <p>
+            PT Baru Transformasi Indonesia (Bartrinesia) merupakan perusahaan
+            yang bergerak di bidang IT Solutions, dengan layanan utama berupa
+            pengembangan aplikasi, penyediaan perangkat lunak dan perangkat
+            keras, serta jasa konsultasi manajemen umum dan teknologi informasi.
+          </p>
 
-        <div className="about-wrapper">
-          <div className="about-image">
-            <img src="img/company (2).jpg" alt="About Us" />
+          <p>
+            Berlokasi di pusat bisnis Jakarta Selatan, kami hadir sebagai mitra
+            strategis bagi perusahaan dan institusi yang ingin mempercepat
+            proses transformasi digital secara menyeluruh.
+          </p>
+
+          <p>
+            Dengan membawa semangat inovasi dan efisiensi, Bartrinesia
+            menggabungkan teknologi terkini dengan pemahaman mendalam terhadap
+            kebutuhan klien. Tim kami terdiri dari tenaga ahli berpengalaman
+            dalam pengembangan sistem, perancangan infrastruktur TI, serta
+            pendampingan konsultatif untuk meningkatkan kapabilitas manajerial
+            berbasis teknologi.
+          </p>
+        </div>
+
+        {/* ================= VISI & MISI ================= */}
+        <div className="vm-section">
+          <div className="vm-left">
+            <div className="image-grid">
+              <img src="img/working-programmer.jpg" alt="Cable Optic 1" />
+              <img src="img/cable-optic (2).jpg" alt="Cable Optic 2" />
+            </div>
           </div>
 
-          <div className="about-slider">
-            <div className="about-card">
-              <h3>{slides[current].title}</h3>
-              <h4>{slides[current].subtitle}</h4>
-              <p>{slides[current].description}</p>
-
-              <div className="slider-nav">
-                <button onClick={prevSlide}>❮</button>
-                <button onClick={nextSlide}>❯</button>
-              </div>
+          <div className="vm-right">
+            <div className="vision">
+              <h2>VISI KAMI</h2>
+              <p>
+                Menjadi mitra utama transformasi digital di Indonesia melalui
+                solusi teknologi informasi yang inovatif, tepat guna, dan
+                berkelanjutan.
+              </p>
             </div>
 
-            <div className="dots">
-              {slides.map((_, index) => (
-                <span
-                  key={index}
-                  className={current === index ? "dot active" : "dot"}
-                  onClick={() => setCurrent(index)}
-                ></span>
-              ))}
+            <div className="mission">
+              <h2>MISI KAMI</h2>
+              <ul>
+                <li>
+                  Menyediakan layanan dan solusi TI yang handal, adaptif, dan
+                  sesuai kebutuhan industri.
+                </li>
+                <li>
+                  Membangun kemitraan jangka panjang berbasis kepercayaan,
+                  kualitas, dan hasil nyata.
+                </li>
+                <li>
+                  Meningkatkan daya saing klien melalui pemanfaatan teknologi
+                  yang tepat sasaran.
+                </li>
+                <li>
+                  Mengembangkan kompetensi internal yang selaras dengan
+                  perkembangan teknologi global.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

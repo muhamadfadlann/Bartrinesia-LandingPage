@@ -5,40 +5,38 @@ import {
   HardDrives,
   ShieldCheck,
   Medal,
+  DevicesIcon,
   Sliders,
   Timer,
 } from "@phosphor-icons/react";
 
 const services = [
   {
-    icon: Code,
+    icon: DevicesIcon,
     color: "orange",
-    // number: "01",
-    title: "Pengembangan Aplikasi & Software Kustom",
-    desc: "Pembuatan sistem dan aplikasi yang disesuaikan secara penuh dengan kebutuhan serta proses bisnis klien—dari tahap konsep hingga peluncuran.",
+    title: "Custom Application & Software Development",
+    desc: "Development of systems and applications fully tailored to client needs and business processes—from initial concept to final deployment.",
   },
   {
     icon: Strategy,
     color: "blue",
-    // number: "02",
-    title: "Konsultasi Manajemen & Teknologi Informasi",
-    desc: "Pendampingan strategis berbasis data dalam pengambilan keputusan teknologi yang tepat sasaran dan terukur untuk pertumbuhan bisnis.",
+    title: "IT & Management Consulting",
+    desc: "Strategic, data-driven consulting to support informed technology decisions and sustainable business growth.",
   },
   {
     icon: HardDrives,
     color: "orange",
-    // number: "03",
-    title: "Penyediaan Perangkat IT & Infrastruktur",
-    desc: "Pengadaan komputer, server, jaringan, dan perlengkapan teknologi terpadu yang mendukung operasional bisnis yang andal.",
+    title: "IT Hardware & Infrastructure Provision",
+    desc: "Supply of computers, servers, networking systems, and integrated technology infrastructure to ensure reliable business operations.",
   },
   {
     icon: ShieldCheck,
     color: "blue",
-    // number: "04",
-    title: "Distribusi & Penerbitan Perangkat Lunak",
-    desc: "Legalisasi dan penyediaan piranti lunak komersial serta profesional dengan lisensi resmi yang terjamin keabsahannya.",
+    title: "Software Distribution & Licensing",
+    desc: "Authorized distribution and licensing of commercial and professional software with guaranteed legal compliance.",
   },
 ];
+
 
 const whyItems = [
   {
@@ -66,7 +64,7 @@ export default function Service() {
     <>
       <section className="service" id="services">
         <div className="service-wrapper">
-          <h2>Layanan Kami</h2>
+          <h2>Our Services</h2>
           <div className="line"></div>
 
           <div className="service-list">
