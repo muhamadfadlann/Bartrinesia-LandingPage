@@ -34,7 +34,7 @@ export default function About() {
         <div className="vm-section">
           <div className="vm-left">
             <div className="image-grid">
-              <img src="img/working-programmer.jpg" alt="Cable Optic 1" />
+              <img src="img/staff-in-front-of-the-computer.jpg" alt="Cable Optic 1" />
               <img src="img/cable-optic (2).jpg" alt="Cable Optic 2" />
             </div>
           </div>
